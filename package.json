@@ -1,0 +1,29 @@
+{
+    "name": "nodecms",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon ./server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Nafim-Ershad/nodeCMS.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Nafim-Ershad/nodeCMS/issues"
+    },
+    "homepage": "https://github.com/Nafim-Ershad/nodeCMS#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "mongoose": "^6.7.0",
+        "nodemon": "^2.0.20",
+        "pug": "^3.0.2"
+    }
+}
